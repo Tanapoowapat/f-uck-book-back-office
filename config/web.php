@@ -16,9 +16,9 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => '7owse27pu6eq1vgBHThNVaJ7YlldpJyJ',
         ],
-        'cache' => [
-            'class' => 'yii\caching\FileCache',
-        ],
+        // 'cache' => [
+        //     'class' => 'yii\caching\FileCache',
+        // ],
         'user' => [
             'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
@@ -56,20 +56,6 @@ $config = [
 
     ],
     'params' => $params,
-    // 'modules' => [
-    //     'gii' => [
-    //         'class' => 'yii\gii\Module',
-    //          // permits any and all IPs
-    //          // you should probably restrict this
-    //         'allowedIPs' => ['*']
-    //     ],
-    //     'debug' => [
-    //         'class' => 'yii\debug\Module',
-    //          // permits any and all IPs
-    //          // you should probably restrict this
-    //         'allowedIPs' => ['*']
-    //     ]
-    // ],
 ];
 
 if (YII_ENV_DEV) {

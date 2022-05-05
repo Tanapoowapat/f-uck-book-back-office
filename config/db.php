@@ -6,6 +6,7 @@ return [
     'username' => 'FlaskPython',
     'password' => 'xH616H6aeB4wpmzm',
     'charset' => 'utf8',
+    'enableSchemaCache' => false,
     
     // 'class' => 'yii\db\Connection',
     // 'dsn' => 'mysql:host=localhost;dbname=yii2basic',
