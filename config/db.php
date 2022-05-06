@@ -2,20 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'pgsql:host=34.142.255.3;port=5432;dbname=cloud',
-    'username' => 'FlaskPython',
-    'password' => 'xH616H6aeB4wpmzm',
+    'dsn' => 'pgsql:host=35.247.147.200;port=5432;dbname=fluck-db',
+    'username' => 'fluckbook-admin',
+    'password' => 'C$*LaLT3LRBD{KFZ',
     'charset' => 'utf8',
     'enableSchemaCache' => false,
-    
-    // 'class' => 'yii\db\Connection',
-    // 'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    // 'username' => 'root',
-    // 'password' => '',
-    // 'charset' => 'utf8',
-
-    // Schema cache options (for production environment)
-    //'enableSchemaCache' => true,
-    //'schemaCacheDuration' => 60,
-    //'schemaCache' => 'cache',
 ];
