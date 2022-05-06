@@ -11,7 +11,7 @@ $this->title = 'Back Office';
 
         <p class="lead">Welcome to FluckBook land of fluck post</p>
 
-        <p><a class="btn btn-lg btn-success" href="https://spacebook-qy7vmzm5bq-as.a.run.app/">Get started with Fluck World</a></p>
+        <p><a class="btn btn-lg btn-success" href="https://f-uck-book-fontend-qy7vmzm5bq-as.a.run.app/login.html">Get started with Fluck World</a></p>
     </div>
 
 </div>
